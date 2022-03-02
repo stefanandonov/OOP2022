@@ -8,6 +8,12 @@ struct Date {
     int day;
     int month;
     int year;
+
+    //int compare(Date d2); //d1.compare(d2)     compare(d1,d2)
+
+    //void readDate();
+
+    //void printDate();
 };
 typedef struct Date Date;
 
