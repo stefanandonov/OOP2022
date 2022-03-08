@@ -37,6 +37,48 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="question">
+				<Option output="/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/question" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 question"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="question/fast">
+				<Option output="/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/question" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 question/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="intro_to_references">
 				<Option output="/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/intro_to_references" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug"/>
@@ -158,6 +200,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 students/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ski">
+				<Option output="/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/ski" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 ski"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ski/fast">
+				<Option output="/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/ski" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 ski/fast"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -584,6 +668,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/stefanandonov/CLionProjects/OOP2022/EN/ex1/question.c">
+			<Option target="question"/>
+		</Unit>
 		<Unit filename="/Users/stefanandonov/CLionProjects/OOP2022/EN/ex1/task1.c">
 			<Option target="task1"/>
 		</Unit>
@@ -593,6 +680,15 @@
 		<Unit filename="/Users/stefanandonov/CLionProjects/OOP2022/EN/ex1/task3.c">
 			<Option target="task3"/>
 		</Unit>
+		<Unit filename="/Users/stefanandonov/CLionProjects/OOP2022/EN/ex2/intro_to_cpp.cpp">
+			<Option target="intro_to_cpp"/>
+		</Unit>
+		<Unit filename="/Users/stefanandonov/CLionProjects/OOP2022/EN/ex2/ski.c">
+			<Option target="ski"/>
+		</Unit>
+		<Unit filename="/Users/stefanandonov/CLionProjects/OOP2022/EN/ex2/students.cpp">
+			<Option target="students"/>
+		</Unit>
 		<Unit filename="/Users/stefanandonov/CLionProjects/OOP2022/MK/av1/zad1.c">
 			<Option target="zad1"/>
 		</Unit>
@@ -601,9 +697,6 @@
 		</Unit>
 		<Unit filename="/Users/stefanandonov/CLionProjects/OOP2022/MK/av1/zad3.c">
 			<Option target="zad3"/>
-		</Unit>
-		<Unit filename="/Users/stefanandonov/CLionProjects/OOP2022/MK/av2/intro_to_cpp.cpp">
-			<Option target="intro_to_cpp"/>
 		</Unit>
 		<Unit filename="/Users/stefanandonov/CLionProjects/OOP2022/MK/av2/intro_to_references.cpp">
 			<Option target="intro_to_references"/>
@@ -616,9 +709,6 @@
 		</Unit>
 		<Unit filename="/Users/stefanandonov/CLionProjects/OOP2022/MK/av2/skilift.c">
 			<Option target="skilift"/>
-		</Unit>
-		<Unit filename="/Users/stefanandonov/CLionProjects/OOP2022/MK/av2/students.cpp">
-			<Option target="students"/>
 		</Unit>
 		<Unit filename="/Users/stefanandonov/CLionProjects/OOP2022/main.cpp">
 			<Option target="OOP2022"/>

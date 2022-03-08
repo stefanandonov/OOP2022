@@ -73,9 +73,11 @@ CMAKE_BINARY_DIR = /Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/question.dir/all
 all: CMakeFiles/intro_to_references.dir/all
 all: CMakeFiles/task2.dir/all
 all: CMakeFiles/students.dir/all
+all: CMakeFiles/ski.dir/all
 all: CMakeFiles/skilift.dir/all
 all: CMakeFiles/kolokviumska.dir/all
 all: CMakeFiles/zad1.dir/all
@@ -95,9 +97,11 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/question.dir/clean
 clean: CMakeFiles/intro_to_references.dir/clean
 clean: CMakeFiles/task2.dir/clean
 clean: CMakeFiles/students.dir/clean
+clean: CMakeFiles/ski.dir/clean
 clean: CMakeFiles/skilift.dir/clean
 clean: CMakeFiles/kolokviumska.dir/clean
 clean: CMakeFiles/zad1.dir/clean
@@ -110,6 +114,33 @@ clean: CMakeFiles/task3.dir/clean
 clean: CMakeFiles/OOP2022.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/question.dir
+
+# All Build rule for target.
+CMakeFiles/question.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/question.dir/build.make CMakeFiles/question.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/question.dir/build.make CMakeFiles/question.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target question"
+.PHONY : CMakeFiles/question.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/question.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/question.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/question.dir/rule
+
+# Convenience name for target.
+question: CMakeFiles/question.dir/rule
+
+.PHONY : question
+
+# clean rule for target.
+CMakeFiles/question.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/question.dir/build.make CMakeFiles/question.dir/clean
+.PHONY : CMakeFiles/question.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/intro_to_references.dir
@@ -145,7 +176,7 @@ CMakeFiles/intro_to_references.dir/clean:
 CMakeFiles/task2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target task2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target task2"
 .PHONY : CMakeFiles/task2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -172,7 +203,7 @@ CMakeFiles/task2.dir/clean:
 CMakeFiles/students.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target students"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target students"
 .PHONY : CMakeFiles/students.dir/all
 
 # Build rule for subdir invocation for target.
@@ -193,13 +224,40 @@ CMakeFiles/students.dir/clean:
 .PHONY : CMakeFiles/students.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/ski.dir
+
+# All Build rule for target.
+CMakeFiles/ski.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ski.dir/build.make CMakeFiles/ski.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ski.dir/build.make CMakeFiles/ski.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target ski"
+.PHONY : CMakeFiles/ski.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ski.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ski.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ski.dir/rule
+
+# Convenience name for target.
+ski: CMakeFiles/ski.dir/rule
+
+.PHONY : ski
+
+# clean rule for target.
+CMakeFiles/ski.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ski.dir/build.make CMakeFiles/ski.dir/clean
+.PHONY : CMakeFiles/ski.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/skilift.dir
 
 # All Build rule for target.
 CMakeFiles/skilift.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target skilift"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target skilift"
 .PHONY : CMakeFiles/skilift.dir/all
 
 # Build rule for subdir invocation for target.
@@ -253,7 +311,7 @@ CMakeFiles/kolokviumska.dir/clean:
 CMakeFiles/zad1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target zad1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target zad1"
 .PHONY : CMakeFiles/zad1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -307,7 +365,7 @@ CMakeFiles/persons.dir/clean:
 CMakeFiles/task1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target task1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target task1"
 .PHONY : CMakeFiles/task1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -334,7 +392,7 @@ CMakeFiles/task1.dir/clean:
 CMakeFiles/zad3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target zad3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target zad3"
 .PHONY : CMakeFiles/zad3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -388,7 +446,7 @@ CMakeFiles/intro_to_cpp.dir/clean:
 CMakeFiles/zad2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad2.dir/build.make CMakeFiles/zad2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad2.dir/build.make CMakeFiles/zad2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target zad2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target zad2"
 .PHONY : CMakeFiles/zad2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -415,7 +473,7 @@ CMakeFiles/zad2.dir/clean:
 CMakeFiles/task3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target task3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target task3"
 .PHONY : CMakeFiles/task3.dir/all
 
 # Build rule for subdir invocation for target.

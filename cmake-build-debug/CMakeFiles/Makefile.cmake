@@ -52,9 +52,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/question.dir/DependInfo.cmake"
   "CMakeFiles/intro_to_references.dir/DependInfo.cmake"
   "CMakeFiles/task2.dir/DependInfo.cmake"
   "CMakeFiles/students.dir/DependInfo.cmake"
+  "CMakeFiles/ski.dir/DependInfo.cmake"
   "CMakeFiles/skilift.dir/DependInfo.cmake"
   "CMakeFiles/kolokviumska.dir/DependInfo.cmake"
   "CMakeFiles/zad1.dir/DependInfo.cmake"

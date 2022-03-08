@@ -77,27 +77,27 @@ include CMakeFiles/intro_to_cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/intro_to_cpp.dir/flags.make
 
-CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.o: CMakeFiles/intro_to_cpp.dir/flags.make
-CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.o: ../MK/av2/intro_to_cpp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.o -c /Users/stefanandonov/CLionProjects/OOP2022/MK/av2/intro_to_cpp.cpp
+CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.o: CMakeFiles/intro_to_cpp.dir/flags.make
+CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.o: ../EN/ex2/intro_to_cpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.o -c /Users/stefanandonov/CLionProjects/OOP2022/EN/ex2/intro_to_cpp.cpp
 
-CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stefanandonov/CLionProjects/OOP2022/MK/av2/intro_to_cpp.cpp > CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.i
+CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stefanandonov/CLionProjects/OOP2022/EN/ex2/intro_to_cpp.cpp > CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.i
 
-CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stefanandonov/CLionProjects/OOP2022/MK/av2/intro_to_cpp.cpp -o CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.s
+CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stefanandonov/CLionProjects/OOP2022/EN/ex2/intro_to_cpp.cpp -o CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.s
 
 # Object files for target intro_to_cpp
 intro_to_cpp_OBJECTS = \
-"CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.o"
+"CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.o"
 
 # External object files for target intro_to_cpp
 intro_to_cpp_EXTERNAL_OBJECTS =
 
-intro_to_cpp: CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.o
+intro_to_cpp: CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.o
 intro_to_cpp: CMakeFiles/intro_to_cpp.dir/build.make
 intro_to_cpp: CMakeFiles/intro_to_cpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable intro_to_cpp"

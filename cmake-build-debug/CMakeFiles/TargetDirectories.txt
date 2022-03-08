@@ -1,8 +1,10 @@
 /Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles/question.dir
 /Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles/intro_to_references.dir
 /Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles/task2.dir
 /Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles/students.dir
+/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles/ski.dir
 /Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles/skilift.dir
 /Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles/kolokviumska.dir
 /Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles/zad1.dir

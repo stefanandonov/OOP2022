@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named question
+
+# Build rule for target.
+question: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 question
+.PHONY : question
+
+# fast build rule for target.
+question/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/question.dir/build.make CMakeFiles/question.dir/build
+.PHONY : question/fast
+
+#=============================================================================
 # Target rules for targets named intro_to_references
 
 # Build rule for target.
@@ -168,6 +181,19 @@ students: cmake_check_build_system
 students/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/build
 .PHONY : students/fast
+
+#=============================================================================
+# Target rules for targets named ski
+
+# Build rule for target.
+ski: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ski
+.PHONY : ski
+
+# fast build rule for target.
+ski/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ski.dir/build.make CMakeFiles/ski.dir/build
+.PHONY : ski/fast
 
 #=============================================================================
 # Target rules for targets named skilift
@@ -299,6 +325,33 @@ OOP2022/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP2022.dir/build.make CMakeFiles/OOP2022.dir/build
 .PHONY : OOP2022/fast
 
+EN/ex1/question.o: EN/ex1/question.c.o
+
+.PHONY : EN/ex1/question.o
+
+# target to build an object file
+EN/ex1/question.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/question.dir/build.make CMakeFiles/question.dir/EN/ex1/question.c.o
+.PHONY : EN/ex1/question.c.o
+
+EN/ex1/question.i: EN/ex1/question.c.i
+
+.PHONY : EN/ex1/question.i
+
+# target to preprocess a source file
+EN/ex1/question.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/question.dir/build.make CMakeFiles/question.dir/EN/ex1/question.c.i
+.PHONY : EN/ex1/question.c.i
+
+EN/ex1/question.s: EN/ex1/question.c.s
+
+.PHONY : EN/ex1/question.s
+
+# target to generate assembly for a file
+EN/ex1/question.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/question.dir/build.make CMakeFiles/question.dir/EN/ex1/question.c.s
+.PHONY : EN/ex1/question.c.s
+
 EN/ex1/task1.o: EN/ex1/task1.c.o
 
 .PHONY : EN/ex1/task1.o
@@ -380,6 +433,87 @@ EN/ex1/task3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/EN/ex1/task3.c.s
 .PHONY : EN/ex1/task3.c.s
 
+EN/ex2/intro_to_cpp.o: EN/ex2/intro_to_cpp.cpp.o
+
+.PHONY : EN/ex2/intro_to_cpp.o
+
+# target to build an object file
+EN/ex2/intro_to_cpp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/intro_to_cpp.dir/build.make CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.o
+.PHONY : EN/ex2/intro_to_cpp.cpp.o
+
+EN/ex2/intro_to_cpp.i: EN/ex2/intro_to_cpp.cpp.i
+
+.PHONY : EN/ex2/intro_to_cpp.i
+
+# target to preprocess a source file
+EN/ex2/intro_to_cpp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/intro_to_cpp.dir/build.make CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.i
+.PHONY : EN/ex2/intro_to_cpp.cpp.i
+
+EN/ex2/intro_to_cpp.s: EN/ex2/intro_to_cpp.cpp.s
+
+.PHONY : EN/ex2/intro_to_cpp.s
+
+# target to generate assembly for a file
+EN/ex2/intro_to_cpp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/intro_to_cpp.dir/build.make CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.s
+.PHONY : EN/ex2/intro_to_cpp.cpp.s
+
+EN/ex2/ski.o: EN/ex2/ski.c.o
+
+.PHONY : EN/ex2/ski.o
+
+# target to build an object file
+EN/ex2/ski.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ski.dir/build.make CMakeFiles/ski.dir/EN/ex2/ski.c.o
+.PHONY : EN/ex2/ski.c.o
+
+EN/ex2/ski.i: EN/ex2/ski.c.i
+
+.PHONY : EN/ex2/ski.i
+
+# target to preprocess a source file
+EN/ex2/ski.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ski.dir/build.make CMakeFiles/ski.dir/EN/ex2/ski.c.i
+.PHONY : EN/ex2/ski.c.i
+
+EN/ex2/ski.s: EN/ex2/ski.c.s
+
+.PHONY : EN/ex2/ski.s
+
+# target to generate assembly for a file
+EN/ex2/ski.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ski.dir/build.make CMakeFiles/ski.dir/EN/ex2/ski.c.s
+.PHONY : EN/ex2/ski.c.s
+
+EN/ex2/students.o: EN/ex2/students.cpp.o
+
+.PHONY : EN/ex2/students.o
+
+# target to build an object file
+EN/ex2/students.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/EN/ex2/students.cpp.o
+.PHONY : EN/ex2/students.cpp.o
+
+EN/ex2/students.i: EN/ex2/students.cpp.i
+
+.PHONY : EN/ex2/students.i
+
+# target to preprocess a source file
+EN/ex2/students.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/EN/ex2/students.cpp.i
+.PHONY : EN/ex2/students.cpp.i
+
+EN/ex2/students.s: EN/ex2/students.cpp.s
+
+.PHONY : EN/ex2/students.s
+
+# target to generate assembly for a file
+EN/ex2/students.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/EN/ex2/students.cpp.s
+.PHONY : EN/ex2/students.cpp.s
+
 MK/av1/zad1.o: MK/av1/zad1.c.o
 
 .PHONY : MK/av1/zad1.o
@@ -460,33 +594,6 @@ MK/av1/zad3.s: MK/av1/zad3.c.s
 MK/av1/zad3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/MK/av1/zad3.c.s
 .PHONY : MK/av1/zad3.c.s
-
-MK/av2/intro_to_cpp.o: MK/av2/intro_to_cpp.cpp.o
-
-.PHONY : MK/av2/intro_to_cpp.o
-
-# target to build an object file
-MK/av2/intro_to_cpp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/intro_to_cpp.dir/build.make CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.o
-.PHONY : MK/av2/intro_to_cpp.cpp.o
-
-MK/av2/intro_to_cpp.i: MK/av2/intro_to_cpp.cpp.i
-
-.PHONY : MK/av2/intro_to_cpp.i
-
-# target to preprocess a source file
-MK/av2/intro_to_cpp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/intro_to_cpp.dir/build.make CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.i
-.PHONY : MK/av2/intro_to_cpp.cpp.i
-
-MK/av2/intro_to_cpp.s: MK/av2/intro_to_cpp.cpp.s
-
-.PHONY : MK/av2/intro_to_cpp.s
-
-# target to generate assembly for a file
-MK/av2/intro_to_cpp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/intro_to_cpp.dir/build.make CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.s
-.PHONY : MK/av2/intro_to_cpp.cpp.s
 
 MK/av2/intro_to_references.o: MK/av2/intro_to_references.cpp.o
 
@@ -596,33 +703,6 @@ MK/av2/skilift.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/MK/av2/skilift.c.s
 .PHONY : MK/av2/skilift.c.s
 
-MK/av2/students.o: MK/av2/students.cpp.o
-
-.PHONY : MK/av2/students.o
-
-# target to build an object file
-MK/av2/students.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/MK/av2/students.cpp.o
-.PHONY : MK/av2/students.cpp.o
-
-MK/av2/students.i: MK/av2/students.cpp.i
-
-.PHONY : MK/av2/students.i
-
-# target to preprocess a source file
-MK/av2/students.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/MK/av2/students.cpp.i
-.PHONY : MK/av2/students.cpp.i
-
-MK/av2/students.s: MK/av2/students.cpp.s
-
-.PHONY : MK/av2/students.s
-
-# target to generate assembly for a file
-MK/av2/students.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/MK/av2/students.cpp.s
-.PHONY : MK/av2/students.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -663,6 +743,8 @@ help:
 	@echo "... intro_to_references"
 	@echo "... kolokviumska"
 	@echo "... persons"
+	@echo "... question"
+	@echo "... ski"
 	@echo "... skilift"
 	@echo "... students"
 	@echo "... task1"
@@ -671,6 +753,9 @@ help:
 	@echo "... zad1"
 	@echo "... zad2"
 	@echo "... zad3"
+	@echo "... EN/ex1/question.o"
+	@echo "... EN/ex1/question.i"
+	@echo "... EN/ex1/question.s"
 	@echo "... EN/ex1/task1.o"
 	@echo "... EN/ex1/task1.i"
 	@echo "... EN/ex1/task1.s"
@@ -680,6 +765,15 @@ help:
 	@echo "... EN/ex1/task3.o"
 	@echo "... EN/ex1/task3.i"
 	@echo "... EN/ex1/task3.s"
+	@echo "... EN/ex2/intro_to_cpp.o"
+	@echo "... EN/ex2/intro_to_cpp.i"
+	@echo "... EN/ex2/intro_to_cpp.s"
+	@echo "... EN/ex2/ski.o"
+	@echo "... EN/ex2/ski.i"
+	@echo "... EN/ex2/ski.s"
+	@echo "... EN/ex2/students.o"
+	@echo "... EN/ex2/students.i"
+	@echo "... EN/ex2/students.s"
 	@echo "... MK/av1/zad1.o"
 	@echo "... MK/av1/zad1.i"
 	@echo "... MK/av1/zad1.s"
@@ -689,9 +783,6 @@ help:
 	@echo "... MK/av1/zad3.o"
 	@echo "... MK/av1/zad3.i"
 	@echo "... MK/av1/zad3.s"
-	@echo "... MK/av2/intro_to_cpp.o"
-	@echo "... MK/av2/intro_to_cpp.i"
-	@echo "... MK/av2/intro_to_cpp.s"
 	@echo "... MK/av2/intro_to_references.o"
 	@echo "... MK/av2/intro_to_references.i"
 	@echo "... MK/av2/intro_to_references.s"
@@ -704,9 +795,6 @@ help:
 	@echo "... MK/av2/skilift.o"
 	@echo "... MK/av2/skilift.i"
 	@echo "... MK/av2/skilift.s"
-	@echo "... MK/av2/students.o"
-	@echo "... MK/av2/students.i"
-	@echo "... MK/av2/students.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

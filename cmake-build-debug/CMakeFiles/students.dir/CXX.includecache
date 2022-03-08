@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/stefanandonov/CLionProjects/OOP2022/MK/av2/students.cpp
+/Users/stefanandonov/CLionProjects/OOP2022/EN/ex2/students.cpp
 iostream
--
-ctype.h
--
-string
 -
 

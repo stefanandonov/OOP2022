@@ -77,27 +77,27 @@ include CMakeFiles/students.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/students.dir/flags.make
 
-CMakeFiles/students.dir/MK/av2/students.cpp.o: CMakeFiles/students.dir/flags.make
-CMakeFiles/students.dir/MK/av2/students.cpp.o: ../MK/av2/students.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/students.dir/MK/av2/students.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/students.dir/MK/av2/students.cpp.o -c /Users/stefanandonov/CLionProjects/OOP2022/MK/av2/students.cpp
+CMakeFiles/students.dir/EN/ex2/students.cpp.o: CMakeFiles/students.dir/flags.make
+CMakeFiles/students.dir/EN/ex2/students.cpp.o: ../EN/ex2/students.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/students.dir/EN/ex2/students.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/students.dir/EN/ex2/students.cpp.o -c /Users/stefanandonov/CLionProjects/OOP2022/EN/ex2/students.cpp
 
-CMakeFiles/students.dir/MK/av2/students.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/students.dir/MK/av2/students.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stefanandonov/CLionProjects/OOP2022/MK/av2/students.cpp > CMakeFiles/students.dir/MK/av2/students.cpp.i
+CMakeFiles/students.dir/EN/ex2/students.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/students.dir/EN/ex2/students.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stefanandonov/CLionProjects/OOP2022/EN/ex2/students.cpp > CMakeFiles/students.dir/EN/ex2/students.cpp.i
 
-CMakeFiles/students.dir/MK/av2/students.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/students.dir/MK/av2/students.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stefanandonov/CLionProjects/OOP2022/MK/av2/students.cpp -o CMakeFiles/students.dir/MK/av2/students.cpp.s
+CMakeFiles/students.dir/EN/ex2/students.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/students.dir/EN/ex2/students.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stefanandonov/CLionProjects/OOP2022/EN/ex2/students.cpp -o CMakeFiles/students.dir/EN/ex2/students.cpp.s
 
 # Object files for target students
 students_OBJECTS = \
-"CMakeFiles/students.dir/MK/av2/students.cpp.o"
+"CMakeFiles/students.dir/EN/ex2/students.cpp.o"
 
 # External object files for target students
 students_EXTERNAL_OBJECTS =
 
-students: CMakeFiles/students.dir/MK/av2/students.cpp.o
+students: CMakeFiles/students.dir/EN/ex2/students.cpp.o
 students: CMakeFiles/students.dir/build.make
 students: CMakeFiles/students.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable students"

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/stefanandonov/CLionProjects/OOP2022/MK/av2/intro_to_cpp.cpp" "/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles/intro_to_cpp.dir/MK/av2/intro_to_cpp.cpp.o"
+  "/Users/stefanandonov/CLionProjects/OOP2022/EN/ex2/intro_to_cpp.cpp" "/Users/stefanandonov/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles/intro_to_cpp.dir/EN/ex2/intro_to_cpp.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

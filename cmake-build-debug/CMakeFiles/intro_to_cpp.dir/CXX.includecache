@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/stefanandonov/CLionProjects/OOP2022/MK/av2/intro_to_cpp.cpp
+/Users/stefanandonov/CLionProjects/OOP2022/EN/ex2/intro_to_cpp.cpp
+stdio.h
+-
 iostream
 -
 
