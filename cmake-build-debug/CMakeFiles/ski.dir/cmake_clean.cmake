@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ski.dir/EN/ex2/ski.c.o"
+  "CMakeFiles/ski.dir/EN/ex2/ski.c.o.d"
   "ski"
   "ski.pdb"
 )

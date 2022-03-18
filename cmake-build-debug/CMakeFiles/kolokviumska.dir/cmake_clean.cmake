@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/kolokviumska.dir/MK/av2/kolokviumska.c.o"
+  "CMakeFiles/kolokviumska.dir/MK/av2/kolokviumska.c.o.d"
   "kolokviumska"
   "kolokviumska.pdb"
 )

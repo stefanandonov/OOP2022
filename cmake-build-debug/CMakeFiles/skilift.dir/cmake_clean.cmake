@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/skilift.dir/MK/av2/skilift.c.o"
+  "CMakeFiles/skilift.dir/MK/av2/skilift.c.o.d"
   "skilift"
   "skilift.pdb"
 )
