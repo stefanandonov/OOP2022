@@ -680,14 +680,14 @@
 		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex2/students.cpp">
 			<Option target="students"/>
 		</Unit>
-		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex4/task1.cpp">
-			<Option target="task1"/>
-		</Unit>
-		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex4/task2.cpp">
-			<Option target="task2"/>
-		</Unit>
 		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex4/task3.cpp">
 			<Option target="task3"/>
+		</Unit>
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex5/task1.cpp">
+			<Option target="task1"/>
+		</Unit>
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex5/task2.cpp">
+			<Option target="task2"/>
 		</Unit>
 		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av2/intro_to_references.cpp">
 			<Option target="intro_to_references"/>
@@ -701,13 +701,13 @@
 		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av2/skilift.c">
 			<Option target="skilift"/>
 		</Unit>
-		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av4/zad1.cpp">
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av5/zad1.cpp">
 			<Option target="zad1"/>
 		</Unit>
-		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av4/zad2.cpp">
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av5/zad2.cpp">
 			<Option target="zad2"/>
 		</Unit>
-		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av4/zad3.cpp">
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av5/zad3.cpp">
 			<Option target="zad3"/>
 		</Unit>
 		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/main.cpp">

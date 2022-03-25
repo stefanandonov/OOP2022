@@ -1,8 +1,8 @@
 Read from standard input data for unknown number of students (not more then 100). Each row of the data is in following format:
 - first name
 - last name
-- ID number (format xxyzzzz) keep it as a char array (string)
-- an array of the students grades (array of max 100 int)
+- ID number (format xxyzzzz) keep it as a char content (string)
+- an content of the students grades (content of max 100 int)
 - the number of grades (int)
 separated with tab space.
 

@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/jz/ny37d5653p5cmk4t0ywfryd00000gr/T/AppTranslocation/337923BF-8C27-40D2-AF86-29595279258B/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/jz/ny37d5653p5cmk4t0ywfryd00000gr/T/AppTranslocation/337923BF-8C27-40D2-AF86-29595279258B/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/private/var/folders/jz/ny37d5653p5cmk4t0ywfryd00000gr/T/AppTranslocation/337923BF-8C27-40D2-AF86-29595279258B/d/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/private/var/folders/jz/ny37d5653p5cmk4t0ywfryd00000gr/T/AppTranslocation/337923BF-8C27-40D2-AF86-29595279258B/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -407,54 +407,6 @@ EN/ex2/students.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/EN/ex2/students.cpp.s
 .PHONY : EN/ex2/students.cpp.s
 
-EN/ex4/task1.o: EN/ex4/task1.cpp.o
-.PHONY : EN/ex4/task1.o
-
-# target to build an object file
-EN/ex4/task1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/EN/ex4/task1.cpp.o
-.PHONY : EN/ex4/task1.cpp.o
-
-EN/ex4/task1.i: EN/ex4/task1.cpp.i
-.PHONY : EN/ex4/task1.i
-
-# target to preprocess a source file
-EN/ex4/task1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/EN/ex4/task1.cpp.i
-.PHONY : EN/ex4/task1.cpp.i
-
-EN/ex4/task1.s: EN/ex4/task1.cpp.s
-.PHONY : EN/ex4/task1.s
-
-# target to generate assembly for a file
-EN/ex4/task1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/EN/ex4/task1.cpp.s
-.PHONY : EN/ex4/task1.cpp.s
-
-EN/ex4/task2.o: EN/ex4/task2.cpp.o
-.PHONY : EN/ex4/task2.o
-
-# target to build an object file
-EN/ex4/task2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/EN/ex4/task2.cpp.o
-.PHONY : EN/ex4/task2.cpp.o
-
-EN/ex4/task2.i: EN/ex4/task2.cpp.i
-.PHONY : EN/ex4/task2.i
-
-# target to preprocess a source file
-EN/ex4/task2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/EN/ex4/task2.cpp.i
-.PHONY : EN/ex4/task2.cpp.i
-
-EN/ex4/task2.s: EN/ex4/task2.cpp.s
-.PHONY : EN/ex4/task2.s
-
-# target to generate assembly for a file
-EN/ex4/task2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/EN/ex4/task2.cpp.s
-.PHONY : EN/ex4/task2.cpp.s
-
 EN/ex4/task3.o: EN/ex4/task3.cpp.o
 .PHONY : EN/ex4/task3.o
 
@@ -478,6 +430,54 @@ EN/ex4/task3.s: EN/ex4/task3.cpp.s
 EN/ex4/task3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/EN/ex4/task3.cpp.s
 .PHONY : EN/ex4/task3.cpp.s
+
+EN/ex5/task1.o: EN/ex5/task1.cpp.o
+.PHONY : EN/ex5/task1.o
+
+# target to build an object file
+EN/ex5/task1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/EN/ex5/task1.cpp.o
+.PHONY : EN/ex5/task1.cpp.o
+
+EN/ex5/task1.i: EN/ex5/task1.cpp.i
+.PHONY : EN/ex5/task1.i
+
+# target to preprocess a source file
+EN/ex5/task1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/EN/ex5/task1.cpp.i
+.PHONY : EN/ex5/task1.cpp.i
+
+EN/ex5/task1.s: EN/ex5/task1.cpp.s
+.PHONY : EN/ex5/task1.s
+
+# target to generate assembly for a file
+EN/ex5/task1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/EN/ex5/task1.cpp.s
+.PHONY : EN/ex5/task1.cpp.s
+
+EN/ex5/task2.o: EN/ex5/task2.cpp.o
+.PHONY : EN/ex5/task2.o
+
+# target to build an object file
+EN/ex5/task2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/EN/ex5/task2.cpp.o
+.PHONY : EN/ex5/task2.cpp.o
+
+EN/ex5/task2.i: EN/ex5/task2.cpp.i
+.PHONY : EN/ex5/task2.i
+
+# target to preprocess a source file
+EN/ex5/task2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/EN/ex5/task2.cpp.i
+.PHONY : EN/ex5/task2.cpp.i
+
+EN/ex5/task2.s: EN/ex5/task2.cpp.s
+.PHONY : EN/ex5/task2.s
+
+# target to generate assembly for a file
+EN/ex5/task2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/EN/ex5/task2.cpp.s
+.PHONY : EN/ex5/task2.cpp.s
 
 MK/av2/intro_to_references.o: MK/av2/intro_to_references.cpp.o
 .PHONY : MK/av2/intro_to_references.o
@@ -575,77 +575,77 @@ MK/av2/skilift.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/MK/av2/skilift.c.s
 .PHONY : MK/av2/skilift.c.s
 
-MK/av4/zad1.o: MK/av4/zad1.cpp.o
-.PHONY : MK/av4/zad1.o
+MK/av5/zad1.o: MK/av5/zad1.cpp.o
+.PHONY : MK/av5/zad1.o
 
 # target to build an object file
-MK/av4/zad1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/MK/av4/zad1.cpp.o
-.PHONY : MK/av4/zad1.cpp.o
+MK/av5/zad1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/MK/av5/zad1.cpp.o
+.PHONY : MK/av5/zad1.cpp.o
 
-MK/av4/zad1.i: MK/av4/zad1.cpp.i
-.PHONY : MK/av4/zad1.i
+MK/av5/zad1.i: MK/av5/zad1.cpp.i
+.PHONY : MK/av5/zad1.i
 
 # target to preprocess a source file
-MK/av4/zad1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/MK/av4/zad1.cpp.i
-.PHONY : MK/av4/zad1.cpp.i
+MK/av5/zad1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/MK/av5/zad1.cpp.i
+.PHONY : MK/av5/zad1.cpp.i
 
-MK/av4/zad1.s: MK/av4/zad1.cpp.s
-.PHONY : MK/av4/zad1.s
+MK/av5/zad1.s: MK/av5/zad1.cpp.s
+.PHONY : MK/av5/zad1.s
 
 # target to generate assembly for a file
-MK/av4/zad1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/MK/av4/zad1.cpp.s
-.PHONY : MK/av4/zad1.cpp.s
+MK/av5/zad1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/MK/av5/zad1.cpp.s
+.PHONY : MK/av5/zad1.cpp.s
 
-MK/av4/zad2.o: MK/av4/zad2.cpp.o
-.PHONY : MK/av4/zad2.o
+MK/av5/zad2.o: MK/av5/zad2.cpp.o
+.PHONY : MK/av5/zad2.o
 
 # target to build an object file
-MK/av4/zad2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad2.dir/build.make CMakeFiles/zad2.dir/MK/av4/zad2.cpp.o
-.PHONY : MK/av4/zad2.cpp.o
+MK/av5/zad2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad2.dir/build.make CMakeFiles/zad2.dir/MK/av5/zad2.cpp.o
+.PHONY : MK/av5/zad2.cpp.o
 
-MK/av4/zad2.i: MK/av4/zad2.cpp.i
-.PHONY : MK/av4/zad2.i
+MK/av5/zad2.i: MK/av5/zad2.cpp.i
+.PHONY : MK/av5/zad2.i
 
 # target to preprocess a source file
-MK/av4/zad2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad2.dir/build.make CMakeFiles/zad2.dir/MK/av4/zad2.cpp.i
-.PHONY : MK/av4/zad2.cpp.i
+MK/av5/zad2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad2.dir/build.make CMakeFiles/zad2.dir/MK/av5/zad2.cpp.i
+.PHONY : MK/av5/zad2.cpp.i
 
-MK/av4/zad2.s: MK/av4/zad2.cpp.s
-.PHONY : MK/av4/zad2.s
+MK/av5/zad2.s: MK/av5/zad2.cpp.s
+.PHONY : MK/av5/zad2.s
 
 # target to generate assembly for a file
-MK/av4/zad2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad2.dir/build.make CMakeFiles/zad2.dir/MK/av4/zad2.cpp.s
-.PHONY : MK/av4/zad2.cpp.s
+MK/av5/zad2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad2.dir/build.make CMakeFiles/zad2.dir/MK/av5/zad2.cpp.s
+.PHONY : MK/av5/zad2.cpp.s
 
-MK/av4/zad3.o: MK/av4/zad3.cpp.o
-.PHONY : MK/av4/zad3.o
+MK/av5/zad3.o: MK/av5/zad3.cpp.o
+.PHONY : MK/av5/zad3.o
 
 # target to build an object file
-MK/av4/zad3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/MK/av4/zad3.cpp.o
-.PHONY : MK/av4/zad3.cpp.o
+MK/av5/zad3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/MK/av5/zad3.cpp.o
+.PHONY : MK/av5/zad3.cpp.o
 
-MK/av4/zad3.i: MK/av4/zad3.cpp.i
-.PHONY : MK/av4/zad3.i
+MK/av5/zad3.i: MK/av5/zad3.cpp.i
+.PHONY : MK/av5/zad3.i
 
 # target to preprocess a source file
-MK/av4/zad3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/MK/av4/zad3.cpp.i
-.PHONY : MK/av4/zad3.cpp.i
+MK/av5/zad3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/MK/av5/zad3.cpp.i
+.PHONY : MK/av5/zad3.cpp.i
 
-MK/av4/zad3.s: MK/av4/zad3.cpp.s
-.PHONY : MK/av4/zad3.s
+MK/av5/zad3.s: MK/av5/zad3.cpp.s
+.PHONY : MK/av5/zad3.s
 
 # target to generate assembly for a file
-MK/av4/zad3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/MK/av4/zad3.cpp.s
-.PHONY : MK/av4/zad3.cpp.s
+MK/av5/zad3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/MK/av5/zad3.cpp.s
+.PHONY : MK/av5/zad3.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -706,15 +706,15 @@ help:
 	@echo "... EN/ex2/students.o"
 	@echo "... EN/ex2/students.i"
 	@echo "... EN/ex2/students.s"
-	@echo "... EN/ex4/task1.o"
-	@echo "... EN/ex4/task1.i"
-	@echo "... EN/ex4/task1.s"
-	@echo "... EN/ex4/task2.o"
-	@echo "... EN/ex4/task2.i"
-	@echo "... EN/ex4/task2.s"
 	@echo "... EN/ex4/task3.o"
 	@echo "... EN/ex4/task3.i"
 	@echo "... EN/ex4/task3.s"
+	@echo "... EN/ex5/task1.o"
+	@echo "... EN/ex5/task1.i"
+	@echo "... EN/ex5/task1.s"
+	@echo "... EN/ex5/task2.o"
+	@echo "... EN/ex5/task2.i"
+	@echo "... EN/ex5/task2.s"
 	@echo "... MK/av2/intro_to_references.o"
 	@echo "... MK/av2/intro_to_references.i"
 	@echo "... MK/av2/intro_to_references.s"
@@ -727,15 +727,15 @@ help:
 	@echo "... MK/av2/skilift.o"
 	@echo "... MK/av2/skilift.i"
 	@echo "... MK/av2/skilift.s"
-	@echo "... MK/av4/zad1.o"
-	@echo "... MK/av4/zad1.i"
-	@echo "... MK/av4/zad1.s"
-	@echo "... MK/av4/zad2.o"
-	@echo "... MK/av4/zad2.i"
-	@echo "... MK/av4/zad2.s"
-	@echo "... MK/av4/zad3.o"
-	@echo "... MK/av4/zad3.i"
-	@echo "... MK/av4/zad3.s"
+	@echo "... MK/av5/zad1.o"
+	@echo "... MK/av5/zad1.i"
+	@echo "... MK/av5/zad1.s"
+	@echo "... MK/av5/zad2.o"
+	@echo "... MK/av5/zad2.i"
+	@echo "... MK/av5/zad2.s"
+	@echo "... MK/av5/zad3.o"
+	@echo "... MK/av5/zad3.i"
+	@echo "... MK/av5/zad3.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

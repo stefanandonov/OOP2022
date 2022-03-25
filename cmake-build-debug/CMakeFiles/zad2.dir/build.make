@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/jz/ny37d5653p5cmk4t0ywfryd00000gr/T/AppTranslocation/337923BF-8C27-40D2-AF86-29595279258B/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/jz/ny37d5653p5cmk4t0ywfryd00000gr/T/AppTranslocation/337923BF-8C27-40D2-AF86-29595279258B/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -69,28 +69,28 @@ include CMakeFiles/zad2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/zad2.dir/flags.make
 
-CMakeFiles/zad2.dir/MK/av4/zad2.cpp.o: CMakeFiles/zad2.dir/flags.make
-CMakeFiles/zad2.dir/MK/av4/zad2.cpp.o: ../MK/av4/zad2.cpp
-CMakeFiles/zad2.dir/MK/av4/zad2.cpp.o: CMakeFiles/zad2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zad2.dir/MK/av4/zad2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zad2.dir/MK/av4/zad2.cpp.o -MF CMakeFiles/zad2.dir/MK/av4/zad2.cpp.o.d -o CMakeFiles/zad2.dir/MK/av4/zad2.cpp.o -c /Users/stefan.a/CLionProjects/OOP2022/MK/av4/zad2.cpp
+CMakeFiles/zad2.dir/MK/av5/zad2.cpp.o: CMakeFiles/zad2.dir/flags.make
+CMakeFiles/zad2.dir/MK/av5/zad2.cpp.o: ../MK/av5/zad2.cpp
+CMakeFiles/zad2.dir/MK/av5/zad2.cpp.o: CMakeFiles/zad2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zad2.dir/MK/av5/zad2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zad2.dir/MK/av5/zad2.cpp.o -MF CMakeFiles/zad2.dir/MK/av5/zad2.cpp.o.d -o CMakeFiles/zad2.dir/MK/av5/zad2.cpp.o -c /Users/stefan.a/CLionProjects/OOP2022/MK/av5/zad2.cpp
 
-CMakeFiles/zad2.dir/MK/av4/zad2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zad2.dir/MK/av4/zad2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stefan.a/CLionProjects/OOP2022/MK/av4/zad2.cpp > CMakeFiles/zad2.dir/MK/av4/zad2.cpp.i
+CMakeFiles/zad2.dir/MK/av5/zad2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zad2.dir/MK/av5/zad2.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stefan.a/CLionProjects/OOP2022/MK/av5/zad2.cpp > CMakeFiles/zad2.dir/MK/av5/zad2.cpp.i
 
-CMakeFiles/zad2.dir/MK/av4/zad2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zad2.dir/MK/av4/zad2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stefan.a/CLionProjects/OOP2022/MK/av4/zad2.cpp -o CMakeFiles/zad2.dir/MK/av4/zad2.cpp.s
+CMakeFiles/zad2.dir/MK/av5/zad2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zad2.dir/MK/av5/zad2.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stefan.a/CLionProjects/OOP2022/MK/av5/zad2.cpp -o CMakeFiles/zad2.dir/MK/av5/zad2.cpp.s
 
 # Object files for target zad2
 zad2_OBJECTS = \
-"CMakeFiles/zad2.dir/MK/av4/zad2.cpp.o"
+"CMakeFiles/zad2.dir/MK/av5/zad2.cpp.o"
 
 # External object files for target zad2
 zad2_EXTERNAL_OBJECTS =
 
-zad2: CMakeFiles/zad2.dir/MK/av4/zad2.cpp.o
+zad2: CMakeFiles/zad2.dir/MK/av5/zad2.cpp.o
 zad2: CMakeFiles/zad2.dir/build.make
 zad2: CMakeFiles/zad2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable zad2"
