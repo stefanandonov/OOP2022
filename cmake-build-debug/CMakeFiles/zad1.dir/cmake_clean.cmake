@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/zad1.dir/MK/av5/zad1.cpp.o"
-  "CMakeFiles/zad1.dir/MK/av5/zad1.cpp.o.d"
+  "CMakeFiles/zad1.dir/MK/av7/zad1.cpp.o"
+  "CMakeFiles/zad1.dir/MK/av7/zad1.cpp.o.d"
   "zad1"
   "zad1.pdb"
 )

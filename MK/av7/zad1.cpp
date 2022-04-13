@@ -45,7 +45,8 @@ public:
         delete[] content;
     }
 
-    void add(int number) {
+    //void addNumber (int number)
+    Array &operator+=(int number) {
         if (size < capacity) {
             content[size++] = number;
         } else {
@@ -59,6 +60,7 @@ public:
             delete[] content;
             content = tmp;
         }
+        return *this;
     }
 
     void change(int a, int b) {
@@ -79,7 +81,8 @@ public:
         return counter;
     }
 
-    void deleteAll(int number) {
+    //void deleteAll(int number)
+    Array &operator-=(int number) {
         int j = 0;
         for (int i = 0; i < size; i++) {
             if (content[i] != number) {
@@ -88,20 +91,44 @@ public:
         }
 
         this->size = j;
+
+        return *this;
     }
 
-    void print() {
-        cout << "Capacity: " << capacity << endl;
-        cout << "Size: " << size << endl;
-        cout << "Percentage filled: " << (100.0 * size) / capacity << "%" << endl;
-        for (int i = 0; i < size; i++) {
-            if (i != size - 1) {
-                cout << content[i] << ", ";
+    friend ostream &operator<<(ostream &out, const Array &a) {
+        out << "Capacity: " << a.capacity << endl;
+        out << "Size: " << a.size << endl;
+        out << "Percentage filled: " << (100.0 * a.size) / a.capacity << "%" << endl;
+        for (int i = 0; i < a.size; i++) {
+            if (i != a.size - 1) {
+                out << a.content[i] << ", ";
             } else {
-                cout << content[i];
+                out << a.content[i];
             }
         }
-        cout << endl;
+        out << endl;
+        return out;
+    }
+
+    friend istream &operator>>(istream &in, Array &a) {
+        in >> a.capacity;
+        return in;
+    }
+
+    int &operator[](int idx) {
+        return content[idx];
+    }
+
+    bool operator==(Array &other) {
+        if (this->size != other.size) {
+            return false;
+        }
+        for (int i = 0; i < this->size; i++) {
+            if (this->content[i] != other.content[i]) {
+                return false;
+            }
+        }
+        return true;
     }
 
 
@@ -109,25 +136,40 @@ public:
 
 int main() {
     Array a;
-    a.print();
+    cin >> a;
+    cout << a;
+
+//    Array a;
+//    a.print();
     for (int i = 0; i < 10; i++) {
-        a.add(i);
+        a += i;
     }
     cout << "--------" << endl;
-    a.print();
+    cout << a;
     cout << "--------" << endl;
-    a.add(1);
-    a.print();
+    a += 1;
+    cout << a;
     for (int i = 1; i <= 10; i++) {
-        a.add(i);
+        a += i;
     }
     cout << "--------" << endl;
-    a.print();
+    cout << a;
     cout << "--------" << endl;
-    a.change(2, 1);
-    a.print();
+//    a.change(2, 1);
+//    a.print();
+//    cout << "--------" << endl;
+    a -= 1;
+    cout << a;
+
     cout << "--------" << endl;
-    a.deleteAll(1);
-    a.print();
+    a[3] = 100;
+    cout << a;
+
+    cout << "Ednakvost--------" << endl;
+    Array a1(a); //copy-constructor
+    cout << (a == a1) << endl;
+    a1[0] = 1000;
+    cout << (a == a1);
+
     return 0;
 }

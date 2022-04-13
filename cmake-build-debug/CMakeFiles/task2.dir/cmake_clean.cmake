@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/task2.dir/EN/ex5/task2.cpp.o"
-  "CMakeFiles/task2.dir/EN/ex5/task2.cpp.o.d"
+  "CMakeFiles/task2.dir/EN/ex6/task2.c.o"
+  "CMakeFiles/task2.dir/EN/ex6/task2.c.o.d"
   "task2"
   "task2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C)
   include(CMakeFiles/task2.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
