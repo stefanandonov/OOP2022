@@ -69,28 +69,28 @@ include CMakeFiles/task1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/task1.dir/flags.make
 
-CMakeFiles/task1.dir/EN/ex6/task1.cpp.o: CMakeFiles/task1.dir/flags.make
-CMakeFiles/task1.dir/EN/ex6/task1.cpp.o: ../EN/ex6/task1.cpp
-CMakeFiles/task1.dir/EN/ex6/task1.cpp.o: CMakeFiles/task1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task1.dir/EN/ex6/task1.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task1.dir/EN/ex6/task1.cpp.o -MF CMakeFiles/task1.dir/EN/ex6/task1.cpp.o.d -o CMakeFiles/task1.dir/EN/ex6/task1.cpp.o -c /Users/stefan.a/CLionProjects/OOP2022/EN/ex6/task1.cpp
+CMakeFiles/task1.dir/EN/ex9/task1.cpp.o: CMakeFiles/task1.dir/flags.make
+CMakeFiles/task1.dir/EN/ex9/task1.cpp.o: ../EN/ex9/task1.cpp
+CMakeFiles/task1.dir/EN/ex9/task1.cpp.o: CMakeFiles/task1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task1.dir/EN/ex9/task1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task1.dir/EN/ex9/task1.cpp.o -MF CMakeFiles/task1.dir/EN/ex9/task1.cpp.o.d -o CMakeFiles/task1.dir/EN/ex9/task1.cpp.o -c /Users/stefan.a/CLionProjects/OOP2022/EN/ex9/task1.cpp
 
-CMakeFiles/task1.dir/EN/ex6/task1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task1.dir/EN/ex6/task1.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stefan.a/CLionProjects/OOP2022/EN/ex6/task1.cpp > CMakeFiles/task1.dir/EN/ex6/task1.cpp.i
+CMakeFiles/task1.dir/EN/ex9/task1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task1.dir/EN/ex9/task1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stefan.a/CLionProjects/OOP2022/EN/ex9/task1.cpp > CMakeFiles/task1.dir/EN/ex9/task1.cpp.i
 
-CMakeFiles/task1.dir/EN/ex6/task1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task1.dir/EN/ex6/task1.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stefan.a/CLionProjects/OOP2022/EN/ex6/task1.cpp -o CMakeFiles/task1.dir/EN/ex6/task1.cpp.s
+CMakeFiles/task1.dir/EN/ex9/task1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task1.dir/EN/ex9/task1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stefan.a/CLionProjects/OOP2022/EN/ex9/task1.cpp -o CMakeFiles/task1.dir/EN/ex9/task1.cpp.s
 
 # Object files for target task1
 task1_OBJECTS = \
-"CMakeFiles/task1.dir/EN/ex6/task1.cpp.o"
+"CMakeFiles/task1.dir/EN/ex9/task1.cpp.o"
 
 # External object files for target task1
 task1_EXTERNAL_OBJECTS =
 
-task1: CMakeFiles/task1.dir/EN/ex6/task1.cpp.o
+task1: CMakeFiles/task1.dir/EN/ex9/task1.cpp.o
 task1: CMakeFiles/task1.dir/build.make
 task1: CMakeFiles/task1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable task1"

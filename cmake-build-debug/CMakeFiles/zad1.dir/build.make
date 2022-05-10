@@ -69,28 +69,28 @@ include CMakeFiles/zad1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/zad1.dir/flags.make
 
-CMakeFiles/zad1.dir/MK/av7/zad1.cpp.o: CMakeFiles/zad1.dir/flags.make
-CMakeFiles/zad1.dir/MK/av7/zad1.cpp.o: ../MK/av7/zad1.cpp
-CMakeFiles/zad1.dir/MK/av7/zad1.cpp.o: CMakeFiles/zad1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zad1.dir/MK/av7/zad1.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zad1.dir/MK/av7/zad1.cpp.o -MF CMakeFiles/zad1.dir/MK/av7/zad1.cpp.o.d -o CMakeFiles/zad1.dir/MK/av7/zad1.cpp.o -c /Users/stefan.a/CLionProjects/OOP2022/MK/av7/zad1.cpp
+CMakeFiles/zad1.dir/MK/av10/zad1.cpp.o: CMakeFiles/zad1.dir/flags.make
+CMakeFiles/zad1.dir/MK/av10/zad1.cpp.o: ../MK/av10/zad1.cpp
+CMakeFiles/zad1.dir/MK/av10/zad1.cpp.o: CMakeFiles/zad1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zad1.dir/MK/av10/zad1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zad1.dir/MK/av10/zad1.cpp.o -MF CMakeFiles/zad1.dir/MK/av10/zad1.cpp.o.d -o CMakeFiles/zad1.dir/MK/av10/zad1.cpp.o -c /Users/stefan.a/CLionProjects/OOP2022/MK/av10/zad1.cpp
 
-CMakeFiles/zad1.dir/MK/av7/zad1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zad1.dir/MK/av7/zad1.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stefan.a/CLionProjects/OOP2022/MK/av7/zad1.cpp > CMakeFiles/zad1.dir/MK/av7/zad1.cpp.i
+CMakeFiles/zad1.dir/MK/av10/zad1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zad1.dir/MK/av10/zad1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stefan.a/CLionProjects/OOP2022/MK/av10/zad1.cpp > CMakeFiles/zad1.dir/MK/av10/zad1.cpp.i
 
-CMakeFiles/zad1.dir/MK/av7/zad1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zad1.dir/MK/av7/zad1.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stefan.a/CLionProjects/OOP2022/MK/av7/zad1.cpp -o CMakeFiles/zad1.dir/MK/av7/zad1.cpp.s
+CMakeFiles/zad1.dir/MK/av10/zad1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zad1.dir/MK/av10/zad1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stefan.a/CLionProjects/OOP2022/MK/av10/zad1.cpp -o CMakeFiles/zad1.dir/MK/av10/zad1.cpp.s
 
 # Object files for target zad1
 zad1_OBJECTS = \
-"CMakeFiles/zad1.dir/MK/av7/zad1.cpp.o"
+"CMakeFiles/zad1.dir/MK/av10/zad1.cpp.o"
 
 # External object files for target zad1
 zad1_EXTERNAL_OBJECTS =
 
-zad1: CMakeFiles/zad1.dir/MK/av7/zad1.cpp.o
+zad1: CMakeFiles/zad1.dir/MK/av10/zad1.cpp.o
 zad1: CMakeFiles/zad1.dir/build.make
 zad1: CMakeFiles/zad1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable zad1"

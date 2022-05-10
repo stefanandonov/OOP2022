@@ -65,16 +65,19 @@ CMAKE_BINARY_DIR = /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/question.dir/all
 all: CMakeFiles/intro_to_references.dir/all
-all: CMakeFiles/task2.dir/all
+all: CMakeFiles/task1.dir/all
+all: CMakeFiles/task4.dir/all
 all: CMakeFiles/students.dir/all
+all: CMakeFiles/task2.dir/all
+all: CMakeFiles/zad4.dir/all
+all: CMakeFiles/zad3.dir/all
+all: CMakeFiles/intro_to_cpp.dir/all
+all: CMakeFiles/grading.dir/all
 all: CMakeFiles/ski.dir/all
 all: CMakeFiles/skilift.dir/all
 all: CMakeFiles/kolokviumska.dir/all
-all: CMakeFiles/zad1.dir/all
 all: CMakeFiles/persons.dir/all
-all: CMakeFiles/task1.dir/all
-all: CMakeFiles/zad3.dir/all
-all: CMakeFiles/intro_to_cpp.dir/all
+all: CMakeFiles/zad1.dir/all
 all: CMakeFiles/zad2.dir/all
 all: CMakeFiles/task3.dir/all
 all: CMakeFiles/OOP2022.dir/all
@@ -87,16 +90,19 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/question.dir/clean
 clean: CMakeFiles/intro_to_references.dir/clean
-clean: CMakeFiles/task2.dir/clean
+clean: CMakeFiles/task1.dir/clean
+clean: CMakeFiles/task4.dir/clean
 clean: CMakeFiles/students.dir/clean
+clean: CMakeFiles/task2.dir/clean
+clean: CMakeFiles/zad4.dir/clean
+clean: CMakeFiles/zad3.dir/clean
+clean: CMakeFiles/intro_to_cpp.dir/clean
+clean: CMakeFiles/grading.dir/clean
 clean: CMakeFiles/ski.dir/clean
 clean: CMakeFiles/skilift.dir/clean
 clean: CMakeFiles/kolokviumska.dir/clean
-clean: CMakeFiles/zad1.dir/clean
 clean: CMakeFiles/persons.dir/clean
-clean: CMakeFiles/task1.dir/clean
-clean: CMakeFiles/zad3.dir/clean
-clean: CMakeFiles/intro_to_cpp.dir/clean
+clean: CMakeFiles/zad1.dir/clean
 clean: CMakeFiles/zad2.dir/clean
 clean: CMakeFiles/task3.dir/clean
 clean: CMakeFiles/OOP2022.dir/clean
@@ -109,7 +115,7 @@ clean: CMakeFiles/OOP2022.dir/clean
 CMakeFiles/question.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/question.dir/build.make CMakeFiles/question.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/question.dir/build.make CMakeFiles/question.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target question"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target question"
 .PHONY : CMakeFiles/question.dir/all
 
 # Build rule for subdir invocation for target.
@@ -135,7 +141,7 @@ CMakeFiles/question.dir/clean:
 CMakeFiles/intro_to_references.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/intro_to_references.dir/build.make CMakeFiles/intro_to_references.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/intro_to_references.dir/build.make CMakeFiles/intro_to_references.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target intro_to_references"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target intro_to_references"
 .PHONY : CMakeFiles/intro_to_references.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,195 +161,13 @@ CMakeFiles/intro_to_references.dir/clean:
 .PHONY : CMakeFiles/intro_to_references.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/task2.dir
-
-# All Build rule for target.
-CMakeFiles/task2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target task2"
-.PHONY : CMakeFiles/task2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/task2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/task2.dir/rule
-
-# Convenience name for target.
-task2: CMakeFiles/task2.dir/rule
-.PHONY : task2
-
-# clean rule for target.
-CMakeFiles/task2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/clean
-.PHONY : CMakeFiles/task2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/students.dir
-
-# All Build rule for target.
-CMakeFiles/students.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target students"
-.PHONY : CMakeFiles/students.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/students.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/students.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/students.dir/rule
-
-# Convenience name for target.
-students: CMakeFiles/students.dir/rule
-.PHONY : students
-
-# clean rule for target.
-CMakeFiles/students.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/clean
-.PHONY : CMakeFiles/students.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ski.dir
-
-# All Build rule for target.
-CMakeFiles/ski.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ski.dir/build.make CMakeFiles/ski.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ski.dir/build.make CMakeFiles/ski.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target ski"
-.PHONY : CMakeFiles/ski.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ski.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ski.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ski.dir/rule
-
-# Convenience name for target.
-ski: CMakeFiles/ski.dir/rule
-.PHONY : ski
-
-# clean rule for target.
-CMakeFiles/ski.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ski.dir/build.make CMakeFiles/ski.dir/clean
-.PHONY : CMakeFiles/ski.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/skilift.dir
-
-# All Build rule for target.
-CMakeFiles/skilift.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target skilift"
-.PHONY : CMakeFiles/skilift.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/skilift.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/skilift.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/skilift.dir/rule
-
-# Convenience name for target.
-skilift: CMakeFiles/skilift.dir/rule
-.PHONY : skilift
-
-# clean rule for target.
-CMakeFiles/skilift.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/clean
-.PHONY : CMakeFiles/skilift.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/kolokviumska.dir
-
-# All Build rule for target.
-CMakeFiles/kolokviumska.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kolokviumska.dir/build.make CMakeFiles/kolokviumska.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kolokviumska.dir/build.make CMakeFiles/kolokviumska.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target kolokviumska"
-.PHONY : CMakeFiles/kolokviumska.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/kolokviumska.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/kolokviumska.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/kolokviumska.dir/rule
-
-# Convenience name for target.
-kolokviumska: CMakeFiles/kolokviumska.dir/rule
-.PHONY : kolokviumska
-
-# clean rule for target.
-CMakeFiles/kolokviumska.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kolokviumska.dir/build.make CMakeFiles/kolokviumska.dir/clean
-.PHONY : CMakeFiles/kolokviumska.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/zad1.dir
-
-# All Build rule for target.
-CMakeFiles/zad1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target zad1"
-.PHONY : CMakeFiles/zad1.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/zad1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zad1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/zad1.dir/rule
-
-# Convenience name for target.
-zad1: CMakeFiles/zad1.dir/rule
-.PHONY : zad1
-
-# clean rule for target.
-CMakeFiles/zad1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/clean
-.PHONY : CMakeFiles/zad1.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/persons.dir
-
-# All Build rule for target.
-CMakeFiles/persons.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/persons.dir/build.make CMakeFiles/persons.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/persons.dir/build.make CMakeFiles/persons.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target persons"
-.PHONY : CMakeFiles/persons.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/persons.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/persons.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/persons.dir/rule
-
-# Convenience name for target.
-persons: CMakeFiles/persons.dir/rule
-.PHONY : persons
-
-# clean rule for target.
-CMakeFiles/persons.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/persons.dir/build.make CMakeFiles/persons.dir/clean
-.PHONY : CMakeFiles/persons.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/task1.dir
 
 # All Build rule for target.
 CMakeFiles/task1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target task1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target task1"
 .PHONY : CMakeFiles/task1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -363,13 +187,117 @@ CMakeFiles/task1.dir/clean:
 .PHONY : CMakeFiles/task1.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/task4.dir
+
+# All Build rule for target.
+CMakeFiles/task4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target task4"
+.PHONY : CMakeFiles/task4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/task4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/task4.dir/rule
+
+# Convenience name for target.
+task4: CMakeFiles/task4.dir/rule
+.PHONY : task4
+
+# clean rule for target.
+CMakeFiles/task4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/clean
+.PHONY : CMakeFiles/task4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/students.dir
+
+# All Build rule for target.
+CMakeFiles/students.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target students"
+.PHONY : CMakeFiles/students.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/students.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/students.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/students.dir/rule
+
+# Convenience name for target.
+students: CMakeFiles/students.dir/rule
+.PHONY : students
+
+# clean rule for target.
+CMakeFiles/students.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/clean
+.PHONY : CMakeFiles/students.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/task2.dir
+
+# All Build rule for target.
+CMakeFiles/task2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target task2"
+.PHONY : CMakeFiles/task2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/task2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/task2.dir/rule
+
+# Convenience name for target.
+task2: CMakeFiles/task2.dir/rule
+.PHONY : task2
+
+# clean rule for target.
+CMakeFiles/task2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/clean
+.PHONY : CMakeFiles/task2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/zad4.dir
+
+# All Build rule for target.
+CMakeFiles/zad4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad4.dir/build.make CMakeFiles/zad4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad4.dir/build.make CMakeFiles/zad4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target zad4"
+.PHONY : CMakeFiles/zad4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/zad4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zad4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/zad4.dir/rule
+
+# Convenience name for target.
+zad4: CMakeFiles/zad4.dir/rule
+.PHONY : zad4
+
+# clean rule for target.
+CMakeFiles/zad4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad4.dir/build.make CMakeFiles/zad4.dir/clean
+.PHONY : CMakeFiles/zad4.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/zad3.dir
 
 # All Build rule for target.
 CMakeFiles/zad3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target zad3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target zad3"
 .PHONY : CMakeFiles/zad3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -395,7 +323,7 @@ CMakeFiles/zad3.dir/clean:
 CMakeFiles/intro_to_cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/intro_to_cpp.dir/build.make CMakeFiles/intro_to_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/intro_to_cpp.dir/build.make CMakeFiles/intro_to_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target intro_to_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target intro_to_cpp"
 .PHONY : CMakeFiles/intro_to_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -415,13 +343,169 @@ CMakeFiles/intro_to_cpp.dir/clean:
 .PHONY : CMakeFiles/intro_to_cpp.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/grading.dir
+
+# All Build rule for target.
+CMakeFiles/grading.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grading.dir/build.make CMakeFiles/grading.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grading.dir/build.make CMakeFiles/grading.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target grading"
+.PHONY : CMakeFiles/grading.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/grading.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/grading.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/grading.dir/rule
+
+# Convenience name for target.
+grading: CMakeFiles/grading.dir/rule
+.PHONY : grading
+
+# clean rule for target.
+CMakeFiles/grading.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grading.dir/build.make CMakeFiles/grading.dir/clean
+.PHONY : CMakeFiles/grading.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ski.dir
+
+# All Build rule for target.
+CMakeFiles/ski.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ski.dir/build.make CMakeFiles/ski.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ski.dir/build.make CMakeFiles/ski.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target ski"
+.PHONY : CMakeFiles/ski.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ski.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ski.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ski.dir/rule
+
+# Convenience name for target.
+ski: CMakeFiles/ski.dir/rule
+.PHONY : ski
+
+# clean rule for target.
+CMakeFiles/ski.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ski.dir/build.make CMakeFiles/ski.dir/clean
+.PHONY : CMakeFiles/ski.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/skilift.dir
+
+# All Build rule for target.
+CMakeFiles/skilift.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target skilift"
+.PHONY : CMakeFiles/skilift.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/skilift.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/skilift.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/skilift.dir/rule
+
+# Convenience name for target.
+skilift: CMakeFiles/skilift.dir/rule
+.PHONY : skilift
+
+# clean rule for target.
+CMakeFiles/skilift.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/clean
+.PHONY : CMakeFiles/skilift.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/kolokviumska.dir
+
+# All Build rule for target.
+CMakeFiles/kolokviumska.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kolokviumska.dir/build.make CMakeFiles/kolokviumska.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kolokviumska.dir/build.make CMakeFiles/kolokviumska.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target kolokviumska"
+.PHONY : CMakeFiles/kolokviumska.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/kolokviumska.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/kolokviumska.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/kolokviumska.dir/rule
+
+# Convenience name for target.
+kolokviumska: CMakeFiles/kolokviumska.dir/rule
+.PHONY : kolokviumska
+
+# clean rule for target.
+CMakeFiles/kolokviumska.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kolokviumska.dir/build.make CMakeFiles/kolokviumska.dir/clean
+.PHONY : CMakeFiles/kolokviumska.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/persons.dir
+
+# All Build rule for target.
+CMakeFiles/persons.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/persons.dir/build.make CMakeFiles/persons.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/persons.dir/build.make CMakeFiles/persons.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target persons"
+.PHONY : CMakeFiles/persons.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/persons.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/persons.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/persons.dir/rule
+
+# Convenience name for target.
+persons: CMakeFiles/persons.dir/rule
+.PHONY : persons
+
+# clean rule for target.
+CMakeFiles/persons.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/persons.dir/build.make CMakeFiles/persons.dir/clean
+.PHONY : CMakeFiles/persons.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/zad1.dir
+
+# All Build rule for target.
+CMakeFiles/zad1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target zad1"
+.PHONY : CMakeFiles/zad1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/zad1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zad1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/zad1.dir/rule
+
+# Convenience name for target.
+zad1: CMakeFiles/zad1.dir/rule
+.PHONY : zad1
+
+# clean rule for target.
+CMakeFiles/zad1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad1.dir/build.make CMakeFiles/zad1.dir/clean
+.PHONY : CMakeFiles/zad1.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/zad2.dir
 
 # All Build rule for target.
 CMakeFiles/zad2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad2.dir/build.make CMakeFiles/zad2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zad2.dir/build.make CMakeFiles/zad2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target zad2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target zad2"
 .PHONY : CMakeFiles/zad2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -447,7 +531,7 @@ CMakeFiles/zad2.dir/clean:
 CMakeFiles/task3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target task3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target task3"
 .PHONY : CMakeFiles/task3.dir/all
 
 # Build rule for subdir invocation for target.

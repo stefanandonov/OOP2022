@@ -121,8 +121,8 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="task2">
-				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/task2" prefix_auto="0" extension_auto="0"/>
+			<Target title="task1">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/task1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -136,14 +136,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 task2"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 task1"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="task2/fast">
-				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/task2" prefix_auto="0" extension_auto="0"/>
+			<Target title="task1/fast">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/task1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -157,7 +157,49 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 task2/fast"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 task1/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task4">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/task4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 task4"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task4/fast">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/task4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 task4/fast"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -200,6 +242,216 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 students/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/task2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 task2"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2/fast">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/task2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 task2/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zad4">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/zad4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 zad4"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zad4/fast">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/zad4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 zad4/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zad3">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/zad3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 zad3"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zad3/fast">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/zad3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 zad3/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="intro_to_cpp">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/intro_to_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 intro_to_cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="intro_to_cpp/fast">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/intro_to_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 intro_to_cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="grading">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/grading" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 grading"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="grading/fast">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/grading" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 grading/fast"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -331,48 +583,6 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="zad1">
-				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/zad1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 zad1"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="zad1/fast">
-				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/zad1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 zad1/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="persons">
 				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/persons" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
@@ -415,8 +625,8 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="task1">
-				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/task1" prefix_auto="0" extension_auto="0"/>
+			<Target title="zad1">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/zad1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -430,14 +640,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 task1"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 zad1"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="task1/fast">
-				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/task1" prefix_auto="0" extension_auto="0"/>
+			<Target title="zad1/fast">
+				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/zad1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -451,91 +661,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 task1/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="zad3">
-				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/zad3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 zad3"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="zad3/fast">
-				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/zad3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 zad3/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="intro_to_cpp">
-				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/intro_to_cpp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 intro_to_cpp"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="intro_to_cpp/fast">
-				<Option output="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/intro_to_cpp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 intro_to_cpp/fast"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 zad1/fast"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefan.a/CLionProjects/OOP2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -680,14 +806,29 @@
 		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex2/students.cpp">
 			<Option target="students"/>
 		</Unit>
-		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex5/task3.cpp">
-			<Option target="task3"/>
-		</Unit>
-		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex6/task1.cpp">
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex9/task1.cpp">
 			<Option target="task1"/>
 		</Unit>
-		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex6/task2.c">
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex9/task2.cpp">
 			<Option target="task2"/>
+		</Unit>
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex9/task3.cpp">
+			<Option target="task3"/>
+		</Unit>
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/EN/ex9/task4.cpp">
+			<Option target="task4"/>
+		</Unit>
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av10/grading.c">
+			<Option target="grading"/>
+		</Unit>
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av10/zad1.cpp">
+			<Option target="zad1"/>
+		</Unit>
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av10/zad2.cpp">
+			<Option target="zad2"/>
+		</Unit>
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av10/zad3.cpp">
+			<Option target="zad3"/>
 		</Unit>
 		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av2/intro_to_references.cpp">
 			<Option target="intro_to_references"/>
@@ -701,14 +842,8 @@
 		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av2/skilift.c">
 			<Option target="skilift"/>
 		</Unit>
-		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av5/zad3.cpp">
-			<Option target="zad3"/>
-		</Unit>
-		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av7/zad1.cpp">
-			<Option target="zad1"/>
-		</Unit>
-		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av7/zad2.cpp">
-			<Option target="zad2"/>
+		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/MK/av9/zad4.cpp">
+			<Option target="zad4"/>
 		</Unit>
 		<Unit filename="/Users/stefan.a/CLionProjects/OOP2022/main.cpp">
 			<Option target="OOP2022"/>
